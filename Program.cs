@@ -8,3 +8,6 @@ for (int i = 0; i < size; i++)
     arr1[i] = result;
 }
 Console.WriteLine();
+Console.Write("Введенный массив: [");
+Console.Write(string.Join(",", arr1));
+Console.Write("]");
